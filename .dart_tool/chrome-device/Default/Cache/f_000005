@@ -1,0 +1,570 @@
+define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/material/colors.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/flutter/src/widgets/safe_area.dart', 'packages/flutter/src/painting/box_decoration.dart', 'packages/flutter/src/painting/decoration_image.dart', 'packages/flutter/src/painting/image_resolution.dart', 'packages/flutter/src/painting/box_fit.dart', 'packages/flutter/src/painting/edge_insets.dart', 'packages/flutter/src/widgets/icon.dart', 'packages/flutter/src/material/icons.dart', 'packages/flutter/src/painting/strut_style.dart', 'packages/flutter/src/rendering/flex.dart'], (function load__packages__world_time_app__pages__home_dart(dart_sdk, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__material__colors$46dart, packages__flutter__src__material__icon_button$46dart, packages__flutter__src__widgets__safe_area$46dart, packages__flutter__src__painting__box_decoration$46dart, packages__flutter__src__painting__decoration_image$46dart, packages__flutter__src__painting__image_resolution$46dart, packages__flutter__src__painting__box_fit$46dart, packages__flutter__src__painting__edge_insets$46dart, packages__flutter__src__widgets__icon$46dart, packages__flutter__src__material__icons$46dart, packages__flutter__src__painting__strut_style$46dart, packages__flutter__src__rendering__flex$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const _js_helper = dart_sdk._js_helper;
+  const async = dart_sdk.async;
+  const _interceptors = dart_sdk._interceptors;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const routes = packages__flutter__src__widgets__widget_span$46dart.src__widgets__routes;
+  const container = packages__flutter__src__widgets__widget_span$46dart.src__widgets__container;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const navigator = packages__flutter__src__widgets__widget_span$46dart.src__widgets__navigator;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const text = packages__flutter__src__widgets__widget_span$46dart.src__widgets__text;
+  const colors = packages__flutter__src__material__colors$46dart.src__material__colors;
+  const scaffold = packages__flutter__src__material__icon_button$46dart.src__material__scaffold;
+  const flat_button = packages__flutter__src__material__icon_button$46dart.src__material__flat_button;
+  const safe_area = packages__flutter__src__widgets__safe_area$46dart.src__widgets__safe_area;
+  const box_decoration = packages__flutter__src__painting__box_decoration$46dart.src__painting__box_decoration;
+  const decoration_image = packages__flutter__src__painting__decoration_image$46dart.src__painting__decoration_image;
+  const image_resolution = packages__flutter__src__painting__image_resolution$46dart.src__painting__image_resolution;
+  const box_fit = packages__flutter__src__painting__box_fit$46dart.src__painting__box_fit;
+  const edge_insets = packages__flutter__src__painting__edge_insets$46dart.src__painting__edge_insets;
+  const icon = packages__flutter__src__widgets__icon$46dart.src__widgets__icon;
+  const icons = packages__flutter__src__material__icons$46dart.src__material__icons;
+  const text_style = packages__flutter__src__painting__strut_style$46dart.src__painting__text_style;
+  const flex = packages__flutter__src__rendering__flex$46dart.src__rendering__flex;
+  var home = Object.create(dart.library);
+  var $isNotEmpty = dartx.isNotEmpty;
+  var $_get = dartx._get;
+  var ObjectL = () => (ObjectL = dart.constFn(dart.legacy(core.Object)))();
+  var MapL = () => (MapL = dart.constFn(dart.legacy(core.Map)))();
+  var VoidToNull = () => (VoidToNull = dart.constFn(dart.fnType(core.Null, [])))();
+  var FutureOfNull = () => (FutureOfNull = dart.constFn(async.Future$(core.Null)))();
+  var FutureLOfNull = () => (FutureLOfNull = dart.constFn(dart.legacy(FutureOfNull())))();
+  var VoidToFutureLOfNull = () => (VoidToFutureLOfNull = dart.constFn(dart.fnType(FutureLOfNull(), [])))();
+  var _LocationL = () => (_LocationL = dart.constFn(dart.legacy(widget_inspector._Location)))();
+  var WidgetL = () => (WidgetL = dart.constFn(dart.legacy(framework.Widget)))();
+  var JSArrayOfWidgetL = () => (JSArrayOfWidgetL = dart.constFn(_interceptors.JSArray$(WidgetL())))();
+  const CT = Object.create(null);
+  var L0 = "package:world_time_app/pages/home.dart";
+  dart.defineLazy(CT, {
+    get C0() {
+      return C0 = dart.const({
+        __proto__: edge_insets.EdgeInsets.prototype,
+        [EdgeInsets_bottom]: 0,
+        [EdgeInsets_right]: 0,
+        [EdgeInsets_top]: 120,
+        [EdgeInsets_left]: 0
+      });
+    },
+    get C3() {
+      return C3 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 27,
+        [_Location_line]: 55,
+        [_Location_file]: null
+      });
+    },
+    get C4() {
+      return C4 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 21,
+        [_Location_line]: 56,
+        [_Location_file]: null
+      });
+    },
+    get C2() {
+      return C2 = dart.constList([C3 || CT.C3, C4 || CT.C4], _LocationL());
+    },
+    get C1() {
+      return C1 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C2 || CT.C2,
+        [_Location_name]: null,
+        [_Location_column]: 25,
+        [_Location_line]: 54,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C7() {
+      return C7 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 21,
+        [_Location_line]: 59,
+        [_Location_file]: null
+      });
+    },
+    get C8() {
+      return C8 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 21,
+        [_Location_line]: 60,
+        [_Location_file]: null
+      });
+    },
+    get C6() {
+      return C6 = dart.constList([C7 || CT.C7, C8 || CT.C8], _LocationL());
+    },
+    get C5() {
+      return C5 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C6 || CT.C6,
+        [_Location_name]: null,
+        [_Location_column]: 26,
+        [_Location_line]: 58,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C11() {
+      return C11 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onPressed",
+        [_Location_column]: 19,
+        [_Location_line]: 41,
+        [_Location_file]: null
+      });
+    },
+    get C12() {
+      return C12 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 19,
+        [_Location_line]: 54,
+        [_Location_file]: null
+      });
+    },
+    get C13() {
+      return C13 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "label",
+        [_Location_column]: 19,
+        [_Location_line]: 58,
+        [_Location_file]: null
+      });
+    },
+    get C10() {
+      return C10 = dart.constList([C11 || CT.C11, C12 || CT.C12, C13 || CT.C13], _LocationL());
+    },
+    get C9() {
+      return C9 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C10 || CT.C10,
+        [_Location_name]: null,
+        [_Location_column]: 28,
+        [_Location_line]: 40,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C16() {
+      return C16 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 26,
+        [_Location_line]: 65,
+        [_Location_file]: null
+      });
+    },
+    get C15() {
+      return C15 = dart.constList([C16 || CT.C16], _LocationL());
+    },
+    get C14() {
+      return C14 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C15 || CT.C15,
+        [_Location_name]: null,
+        [_Location_column]: 17,
+        [_Location_line]: 65,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C19() {
+      return C19 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 27,
+        [_Location_line]: 70,
+        [_Location_file]: null
+      });
+    },
+    get C20() {
+      return C20 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 23,
+        [_Location_line]: 71,
+        [_Location_file]: null
+      });
+    },
+    get C18() {
+      return C18 = dart.constList([C19 || CT.C19, C20 || CT.C20], _LocationL());
+    },
+    get C17() {
+      return C17 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C18 || CT.C18,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 69,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C23() {
+      return C23 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "mainAxisAlignment",
+        [_Location_column]: 19,
+        [_Location_line]: 67,
+        [_Location_file]: null
+      });
+    },
+    get C24() {
+      return C24 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 19,
+        [_Location_line]: 68,
+        [_Location_file]: null
+      });
+    },
+    get C22() {
+      return C22 = dart.constList([C23 || CT.C23, C24 || CT.C24], _LocationL());
+    },
+    get C21() {
+      return C21 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C22 || CT.C22,
+        [_Location_name]: null,
+        [_Location_column]: 17,
+        [_Location_line]: 66,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C27() {
+      return C27 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 26,
+        [_Location_line]: 79,
+        [_Location_file]: null
+      });
+    },
+    get C26() {
+      return C26 = dart.constList([C27 || CT.C27], _LocationL());
+    },
+    get C25() {
+      return C25 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C26 || CT.C26,
+        [_Location_name]: null,
+        [_Location_column]: 17,
+        [_Location_line]: 79,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C30() {
+      return C30 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 23,
+        [_Location_line]: 81,
+        [_Location_file]: null
+      });
+    },
+    get C31() {
+      return C31 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 19,
+        [_Location_line]: 82,
+        [_Location_file]: null
+      });
+    },
+    get C29() {
+      return C29 = dart.constList([C30 || CT.C30, C31 || CT.C31], _LocationL());
+    },
+    get C28() {
+      return C28 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C29 || CT.C29,
+        [_Location_name]: null,
+        [_Location_column]: 17,
+        [_Location_line]: 80,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C34() {
+      return C34 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 15,
+        [_Location_line]: 39,
+        [_Location_file]: null
+      });
+    },
+    get C33() {
+      return C33 = dart.constList([C34 || CT.C34], _LocationL());
+    },
+    get C32() {
+      return C32 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C33 || CT.C33,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 38,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C37() {
+      return C37 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 13,
+        [_Location_line]: 37,
+        [_Location_file]: null
+      });
+    },
+    get C38() {
+      return C38 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 13,
+        [_Location_line]: 38,
+        [_Location_file]: null
+      });
+    },
+    get C36() {
+      return C36 = dart.constList([C37 || CT.C37, C38 || CT.C38], _LocationL());
+    },
+    get C35() {
+      return C35 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C36 || CT.C36,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 36,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C41() {
+      return C41 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "decoration",
+        [_Location_column]: 11,
+        [_Location_line]: 30,
+        [_Location_file]: null
+      });
+    },
+    get C42() {
+      return C42 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 11,
+        [_Location_line]: 36,
+        [_Location_file]: null
+      });
+    },
+    get C40() {
+      return C40 = dart.constList([C41 || CT.C41, C42 || CT.C42], _LocationL());
+    },
+    get C39() {
+      return C39 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C40 || CT.C40,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 29,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C45() {
+      return C45 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 9,
+        [_Location_line]: 29,
+        [_Location_file]: null
+      });
+    },
+    get C44() {
+      return C44 = dart.constList([C45 || CT.C45], _LocationL());
+    },
+    get C43() {
+      return C43 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C44 || CT.C44,
+        [_Location_name]: null,
+        [_Location_column]: 13,
+        [_Location_line]: 28,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    },
+    get C48() {
+      return C48 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "backgroundColor",
+        [_Location_column]: 7,
+        [_Location_line]: 27,
+        [_Location_file]: null
+      });
+    },
+    get C49() {
+      return C49 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "body",
+        [_Location_column]: 7,
+        [_Location_line]: 28,
+        [_Location_file]: null
+      });
+    },
+    get C47() {
+      return C47 = dart.constList([C48 || CT.C48, C49 || CT.C49], _LocationL());
+    },
+    get C46() {
+      return C46 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C47 || CT.C47,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 26,
+        [_Location_file]: "file:///I:/flutter/world_time.dart/lib/pages/home.dart"
+      });
+    }
+  }, false);
+  home.Home = class Home extends framework.StatefulWidget {
+    createState() {
+      return new home._HomeState.new();
+    }
+  };
+  (home.Home.new = function(opts) {
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    home.Home.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = home.Home.prototype;
+  dart.addTypeTests(home.Home);
+  dart.addTypeCaches(home.Home);
+  dart.setMethodSignature(home.Home, () => ({
+    __proto__: dart.getMethods(home.Home.__proto__),
+    createState: dart.fnType(dart.legacy(home._HomeState), [])
+  }));
+  dart.setLibraryUri(home.Home, L0);
+  var EdgeInsets_bottom = dart.privateName(edge_insets, "EdgeInsets.bottom");
+  var EdgeInsets_right = dart.privateName(edge_insets, "EdgeInsets.right");
+  var EdgeInsets_top = dart.privateName(edge_insets, "EdgeInsets.top");
+  var EdgeInsets_left = dart.privateName(edge_insets, "EdgeInsets.left");
+  var C0;
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  var C3;
+  var C4;
+  var C2;
+  var C1;
+  var C7;
+  var C8;
+  var C6;
+  var C5;
+  var C11;
+  var C12;
+  var C13;
+  var C10;
+  var C9;
+  var C16;
+  var C15;
+  var C14;
+  var C19;
+  var C20;
+  var C18;
+  var C17;
+  var C23;
+  var C24;
+  var C22;
+  var C21;
+  var C27;
+  var C26;
+  var C25;
+  var C30;
+  var C31;
+  var C29;
+  var C28;
+  var C34;
+  var C33;
+  var C32;
+  var C37;
+  var C38;
+  var C36;
+  var C35;
+  var C41;
+  var C42;
+  var C40;
+  var C39;
+  var C45;
+  var C44;
+  var C43;
+  var C48;
+  var C49;
+  var C47;
+  var C46;
+  home._HomeState = class _HomeState extends framework.State$(dart.legacy(home.Home)) {
+    build(context) {
+      this.data = MapL().as(dart.test(this.data[$isNotEmpty]) ? this.data : routes.ModalRoute.of(ObjectL(), context).settings.arguments);
+      let bgImage = dart.dtest(this.data[$_get]("isDaytime")) ? "d.png" : "2.png";
+      let bgColor = dart.dtest(this.data[$_get]("isDaytime")) ? colors.Colors.blue : colors.Colors.indigo._get(700);
+      return new scaffold.Scaffold.new({backgroundColor: bgColor, body: new safe_area.SafeArea.new({child: new container.Container.new({decoration: new box_decoration.BoxDecoration.new({image: new decoration_image.DecorationImage.new({image: new image_resolution.AssetImage.new("assets/" + bgImage), fit: box_fit.BoxFit.cover})}), child: new basic.Padding.new({padding: C0 || CT.C0, child: new basic.Column.new({children: JSArrayOfWidgetL().of([new flat_button._FlatButtonWithIcon.new({onPressed: dart.fn(() => async.async(core.Null, (function*() {
+                      let result = (yield navigator.Navigator.pushNamed(ObjectL(), context, "/location"));
+                      if (result != null) {
+                        this.setState(dart.fn(() => {
+                          this.data = new _js_helper.LinkedMap.from(["time", dart.dsend(result, '_get', ["time"]), "location", dart.dsend(result, '_get', ["location"]), "isDaytime", dart.dsend(result, '_get', ["isDaytime"]), "flag", dart.dsend(result, '_get', ["flag"])]);
+                        }, VoidToNull()));
+                      }
+                    }).bind(this)), VoidToFutureLOfNull()), icon: new icon.Icon.new(icons.Icons.edit_location, {color: colors.Colors.grey._get(300), $creationLocationd_0dea112b090073317d4: C1 || CT.C1}), label: new text.Text.new("Edit Location", {style: new text_style.TextStyle.new({color: colors.Colors.grey._get(300)}), $creationLocationd_0dea112b090073317d4: C5 || CT.C5}), $creationLocationd_0dea112b090073317d4: C9 || CT.C9}), new basic.SizedBox.new({height: 20.0, $creationLocationd_0dea112b090073317d4: C14 || CT.C14}), new basic.Row.new({mainAxisAlignment: flex.MainAxisAlignment.center, children: JSArrayOfWidgetL().of([new text.Text.new(core.String.as(this.data[$_get]("location")), {style: new text_style.TextStyle.new({fontSize: 28.0, letterSpacing: 2.0, color: colors.Colors.white}), $creationLocationd_0dea112b090073317d4: C17 || CT.C17})]), $creationLocationd_0dea112b090073317d4: C21 || CT.C21}), new basic.SizedBox.new({height: 20.0, $creationLocationd_0dea112b090073317d4: C25 || CT.C25}), new text.Text.new(core.String.as(this.data[$_get]("time")), {style: new text_style.TextStyle.new({fontSize: 66.0, color: colors.Colors.white}), $creationLocationd_0dea112b090073317d4: C28 || CT.C28})]), $creationLocationd_0dea112b090073317d4: C32 || CT.C32}), $creationLocationd_0dea112b090073317d4: C35 || CT.C35}), $creationLocationd_0dea112b090073317d4: C39 || CT.C39}), $creationLocationd_0dea112b090073317d4: C43 || CT.C43}), $creationLocationd_0dea112b090073317d4: C46 || CT.C46});
+    }
+  };
+  (home._HomeState.new = function() {
+    this.data = new _js_helper.LinkedMap.new();
+    home._HomeState.__proto__.new.call(this);
+    ;
+  }).prototype = home._HomeState.prototype;
+  dart.addTypeTests(home._HomeState);
+  dart.addTypeCaches(home._HomeState);
+  dart.setMethodSignature(home._HomeState, () => ({
+    __proto__: dart.getMethods(home._HomeState.__proto__),
+    build: dart.fnType(dart.legacy(framework.Widget), [dart.legacy(framework.BuildContext)])
+  }));
+  dart.setLibraryUri(home._HomeState, L0);
+  dart.setFieldSignature(home._HomeState, () => ({
+    __proto__: dart.getFields(home._HomeState.__proto__),
+    data: dart.fieldType(dart.legacy(core.Map))
+  }));
+  dart.trackLibraries("packages/world_time_app/pages/home.dart", {
+    "package:world_time_app/pages/home.dart": home
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["home.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAI8B;IAAY;;;;;;EAC1C;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAY4B;AAEiD,kBAAzE,oBAAO,AAAK,0BAAa,YAAkB,AAAY,AAAS,gCAAlB,OAAO;AAG9C,+BAAU,AAAI,iBAAC,gBAAe,UAAU;AACzC,+BAAU,AAAI,iBAAC,gBAAsB,qBAAc,AAAM,0BAAC;AAEhE,YAAO,6CACY,OAAO,QAClB,mCACG,yCACO,6CACH,iDACE,oCAAW,AAAiB,YAAR,OAAO,QACtB,iCAGT,oDAEE,gCACa,uBACL,oDACE;AACD,oCAAS,MAAgB,yCAAU,OAAO,EAAE;AACpD,0BAAG,MAAM,IAAI;AAQT,wBAPF,cAAS;AAMN,0BALD,YAAO,+BACL,QAAc,WAAN,MAAM,WAAC,UACf,YAAkB,WAAN,MAAM,WAAC,cACnB,aAAmB,WAAN,MAAM,WAAC,eACpB,QAAc,WAAN,MAAM,WAAC;;;oBAItB,8CACK,kBACE,mCACQ,AAAI,wBAAC,oEAEd,kBACL,yBACO,qCACS,AAAI,wBAAC,sHAIzB,gCAAiB,+DACjB,sCACuC,yCACnB,uBAChB,iCACE,AAAI,iBAAC,sBACE,wCACK,qBACK,YACD,2IAKtB,gCAAiB,+DACjB,iCACE,AAAI,iBAAC,kBACE,wCACK,aACI;IAShC;;;IAnFI,YAAO;;;EAoFb","file":"../../../../packages/world_time_app/pages/home.dart.lib.js"}');
+  // Exports:
+  return {
+    pages__home: home
+  };
+}));
+
+//# sourceMappingURL=home.dart.lib.js.map
