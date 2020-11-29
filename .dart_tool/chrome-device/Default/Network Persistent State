@@ -1,1 +1,1 @@
-{"net":{"network_qualities":{"CAISABiAgICA+P////8B":"4G"}}}
+{"net":{"http_server_properties":{"servers":[{"isolation":[],"server":"https://edge.microsoft.com","supports_spdy":true},{"isolation":[],"server":"https://www.bing.com","supports_spdy":true},{"isolation":[],"server":"https://edge.activity.windows.com","supports_spdy":true}],"version":5},"network_qualities":{"CAISABiAgICA+P////8B":"4G"}}}
