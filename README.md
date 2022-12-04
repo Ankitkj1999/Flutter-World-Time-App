@@ -1,6 +1,6 @@
 # flutter_world_time_app
 
-A new Flutter project.
+A flutter project to show times of different location of the word.
 
 | Choose Location | Home Screen / Night | Home Screen / Day|
 | ---------------- | ---------------- | ----------- |
