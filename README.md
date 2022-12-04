@@ -1,6 +1,7 @@
 # Flutter World Time App
 
 A flutter project to show times of different location of the word.
+It used world time api.
 
 | Choose Location | Home Screen / Night | Home Screen / Day|
 | ---------------- | ---------------- | ----------- |
