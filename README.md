@@ -1,4 +1,4 @@
-# flutter_world_time_app
+# Flutter World Time App
 
 A flutter project to show times of different location of the word.
 
